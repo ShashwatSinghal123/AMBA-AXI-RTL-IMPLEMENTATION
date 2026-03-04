@@ -35,7 +35,7 @@ This section covers topics such as used cases of different AXI Interfaces, simpl
 - 2) Write data (Mater -> Slave) -> for providing the data
   <img width="589" height="297" alt="image" src="https://github.com/user-attachments/assets/b0b85deb-17d7-4b1a-8889-4b4cfcfded6f" />
 
-- 3) Write repsonse (Slave -> Mater) ->  respons of a write teansaction
+- 3) Write repsonse (Slave -> Master) ->  response of a write transaction
   <img width="940" height="264" alt="image" src="https://github.com/user-attachments/assets/fb80f6bb-f7b9-479e-aa89-aa102e6956f1" />
 
 - 4) Read address (Master -> Slave) -> specify address and control during read
@@ -48,7 +48,7 @@ This section covers topics such as used cases of different AXI Interfaces, simpl
 ## Valid-ready Handshake
 <img width="940" height="422" alt="image" src="https://github.com/user-attachments/assets/e824c65a-0bba-455c-87a0-6bb189ac096e" />
 
-- both valid and ready are synchronized with clk
+- Both valid and ready are synchronized with clk
 - 3 rules of valid-ready handshake mechanism are :-
   1) Ready and valid should be independent
   2) Ready could be asserted prior to or after valid
